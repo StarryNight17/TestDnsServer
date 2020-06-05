@@ -2,6 +2,7 @@ from nslookup import Nslookup
 from pythonping import ping
 from eventlet.timeout import Timeout
 
+
 DOMAIN = ['m.jd.com',
           'm.taobao.com',
           'm.weibo.com',
