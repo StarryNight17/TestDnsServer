@@ -2,7 +2,6 @@ from nslookup import Nslookup
 from pythonping import ping
 from eventlet.timeout import Timeout
 
-
 DOMAIN = ['m.jd.com',
           'm.taobao.com',
           'm.weibo.com',
@@ -19,7 +18,6 @@ DNS_SERVERS=['114.114.114.114',
              '180.76.76.76',
              '202.103.225.68',
              '8.8.8.8']
-
 
 def test(domain, dns_servers):
     domain_number, best_servers = domain.__len__(), []
